@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;  
+    border-radius: border-box;
+
+}
+@font-face {
+    font-family: furqan;
+    src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+body{
+    text-align:center;
+    font-family: furqan;
+}
+header{
+    /* border: 1px solid green; */
+    height: 60px;
+}
+header #logo{
+
+    /* border: 1px solid yellow; */
+
+    float: left;
+}
+header #logo img{
+    height: 25px;
+    margin-top: 16px;
+    margin-left: 70px;
+
+}
+header nav{
+
+    /* border: 1px solid blue; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+header nav ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    margin: 16px;
+    font-size: 14px;
+}
+#icons{
+    /* border: 1px solid green; */
+    float: right;
+    margin-top: 18px;
+    margin-right: 80px;
+
+}
+#icons span  {
+
+    margin: 10px;
+    color: rgba(68, 67, 67,0.8);
+}
+#icons p{
+
+    font-size: 14px;
+    display: inline-block;
+    color:black;
+}
+
+#main1{
+    /* border: 1px solid yellow; */
+    height: 450px;
+    width: 90%;
+    margin:auto;
+    margin-top: 23px;
+    background-image: url(../images/00.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#main1  #box{
+    /* border: 1px solid red; */
+    float: left;
+    margin-top: 150px;
+    margin-left:63px;
+}
+#main1 #box ,h2 , p{
+
+    color: white;
+}
+#main1 #box p{
+
+    font-size: 12px;
+}
+#main1 #box button{
+
+    background-color: white;
+    height: 34px;
+    width: 40%;
+    border: 0px rgb(99, 97, 97);
+    margin: 24px;
+}
+#area1{
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 34px;
+    width: 90%;
+    margin-left: 65px;
+    overflow: hidden;
+
+}
+#area1 .d1{
+    /* border: 1px solid red; */
+    height: 100%;
+    margin-left: 18px;
+    width: 23%;
+    float: left;
+    
+    
+
+
+}
+#area1 .d1 p{
+    color:black;
+    font-size: 15px;
+}
+#area1 .d1 a{
+
+    font-size: 15px;
+}#main2{
+    /* border: 1px solid yellow; */
+    height: 450px;
+    width: 90%;
+    margin:auto;
+    margin-top: 23px;
+    background-image: url(../images/large2.jpg);
+    background-size: 100%;
+
+}#main2  #box{
+    /* border: 1px solid red; */
+    float: left;
+    margin-top: 200px;
+    margin-left:63px;
+}
+#main2 #box ,h2 , p{
+
+    color: black;
+}
+#main2 #box p{
+
+    font-size: 12px;
+}
+#main2 #box button{
+
+    background-color: black;
+    color: white;
+    height: 34px;
+    width: 40%;
+    border: 0px rgb(99, 97, 97);
+    margin: 24px;
+}
+/footer/
+#footer{
+    
+   background-color:rgb(231, 238, 238);;
+
+
+}
+#footer .content{
+
+    
+  height: 390px;
+  width: 23%;
+  display: inline-block;
+  margin-top: 0px;
+  overflow: hidden;
+}
+#footer .content h3{
+
+    color:rgb(68, 67, 67);
+    font-size: 15px;
+}
+#footer .content ul{
+    list-style: none;
+}
+#footer .content ul li{
+    margin-top: 18px;
+}
+#footer .content ul li a{
+    text-decoration: none;
+    color:rgb(68, 67, 67);
+    font-size: 13px;
+
+}
+/* icons */
+#icons1{
+   
+   display: inline-block;
+   margin-left: -1100px;
+   padding: 23px;
+
+
+}
+#icons img{
+    margin: 23px;
+}
+#icon2{
+    position: absolute;
+    top: 23px;
+}
+#icon2 span {
+    color:rgb(121, 119, 119);
+    padding: 13px;
+    display:none;
+}
+#box3{
+    display: none;
+    background-color: rgb(186, 190, 190);
+    height: 250px;
+}
+ #box3 ,h2 , p{
+
+    color: black;
+}
+#box3 p{
+
+    font-size: 19px;
+}
+ #box3 button{
+
+    background-color: black;
+    color: white;
+    height: 34px;
+    width: 40%;
+    border: 0px rgb(99, 97, 97);
+    margin: 24px;
+}
+
+
+/* responsive code*/
+
+@media screen and (max-width: 810px)
+{
+    header{
+ 
+        
+    }
+    nav{
+
+        display: none;
+        width: 100%;
+        
+    }
+    #icons p{
+
+        display: none;
+    }
+    #icons  .d1{
+
+        display: none;
+        
+        
+    }
+    #icons .d2{
+       
+       float: right;
+
+
+    }
+    #logo{
+        margin-left: 250px;
+
+    }
+    #icon2 span{
+        display: inline;
+        margin-left: 10px;
+    }
+    #main1{
+         background-size: 150%;
+         background-position: center;  
+         margin-top: -18px; 
+    }
+    #main1 #box{
+        margin-left: 16px;
+
+    }
+    #area1{
+ 
+        
+
+    }
+    #area1 .d1{
+        display: inline-block;
+        width: 45%;
+    }
+    #area1 .d1 img{
+        width: 310px;
+
+    }
+}
+@media screen and (max-width: 428px)
+{
+    header{
+       
+    }
+    header #logo img{
+        margin-left: -90px;
+        
+
+    }
+    header #icons .d2{
+        
+        padding: 14px;
+        position: absolute;
+        top: 10px;
+
+    }
+    header #icon2 span{
+        float: right;
+        margin-top: -10px;
+        margin-right: -17px;
+    }
+    #main1{
+
+       
+       margin-top: 0px;
+       width: 100%; 
+       height: 200px;
+       
+        
+    }
+    #main1 #box{
+
+        display: none;
+    }
+    #box3{
+        display: block;
+    }
+   
+    #area1{
+        
+        margin-top: 0px;
+        width: 100%;
+    }
+    #area1 .d1{
+        display: inline-block;
+        width: 50%;
+        
+
+    }
+    #area1 h3, p{
+
+        margin-right: 0px;
+        
+    }
+    #area1 .d1 img{
+        width: 400px;
+        margin-left: -10px;
+        
+    }
+    #footer{
+
+    }
+    #footer .content{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 428px)
+{
+    header{
+       
+    }
+    header #logo img{
+        margin-left: -90px;
+        
+
+    }
+    header #icons .d2{
+        
+        padding: 14px;
+        position: absolute;
+        top: 10px;
+
+    }
+    header #icon2 span{
+        float: right;
+        margin-top: -10px;
+        margin-right: -17px;
+    }
+    #main1{
+
+       
+       margin-top: 0px;
+       width: 100%; 
+       height: 200px;
+       
+        
+    }
+    #main1 #box{
+
+        display: none;
+    }
+    #box3{
+        display: block;
+    }
+   
+    #area1{
+        
+        margin-top: 0px;
+        width: 100%;
+    }
+    #area1 .d1{
+        display: inline-block;
+        width: 50%;
+        
+
+    }
+    #area1 h3, p{
+
+        margin-right: 0px;
+        
+    }
+    #area1 .d1 img{
+        width: 400px;
+        margin-left: -10px;
+        
+    }
+    #footer{
+
+    }
+    #footer .content{
+        display: inline-block;
+        width: 50%;
+        height: auto;
+    }
+}
